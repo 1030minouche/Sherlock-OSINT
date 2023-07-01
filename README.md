@@ -132,17 +132,6 @@ You can use the `docker-compose.yml` file from the repository and use this comma
 ```
 docker-compose run sherlock -o /opt/sherlock/results/text.txt user123
 ```
-
-## Contributing
-We would love to have you help us with the development of Sherlock. Each and every contribution is greatly valued!
-
-Here are some things we would appreciate your help on:
-- Addition of new site support ¹
-- Bringing back site support of [sites that have been removed](removed_sites.md) in the past due to false positives
-
-[1] Please look at the Wiki entry on [adding new sites](https://github.com/sherlock-project/sherlock/wiki/Adding-Sites-To-Sherlock)
-to understand the issues.
-
 ## Tests
 
 Thank you for contributing to Sherlock!
@@ -169,12 +158,3 @@ warnings in the tests instead of true errors.
 If some sites are failing due to connection problems (site is down, in maintenance, etc)
 you can exclude them from tests by creating a `tests/.excluded_sites` file with a
 list of sites to ignore (one site name per line).
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/sherlock-project/sherlock.svg)](https://starchart.cc/sherlock-project/sherlock)
-
-## License
-
-MIT © Sherlock Project<br/>
-Original Creator - [Siddharth Dushantha](https://github.com/sdushantha)
